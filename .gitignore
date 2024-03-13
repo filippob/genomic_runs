@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# data files
+*.map
+*.ped
+*.frq
+*.imiss
+*.lmiss

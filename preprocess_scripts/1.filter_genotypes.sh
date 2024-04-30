@@ -12,8 +12,7 @@ $plink --cow --bfile ${basefolder}/${inputfile} --geno $max_snp_miss_rate --make
 echo "filtering for sample missing rate"
 $plink --cow --bfile ${basefolder}/${outputfolder}/montana_filtered --geno $max_snp_miss_rate --make-bed --out "${basefolder}/${outputfolder}/montana_filtered"
 
-
-
+echo "filtering for MAF"
 # plink --cow --bfile geno_montana_3808_51686_geno05 --mind 0.05 --make-bed --out geno_montana_3808_51686_geno05_min05
 
 # 1.4 Minor allele frequency ----------------------------------------------

@@ -5,7 +5,7 @@ basefolder="/home/filippo/Documents/ciampolini/golden_retriever"
 inputfile="dati/plink_files/golden" ## binary ped files
 outputfolder="results"
 max_snp_miss_rate=0.05
-min_maf=0.05
+min_maf=
 species=dog
 option=autosome-xy
 
